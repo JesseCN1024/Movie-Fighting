@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.19.0/axios.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.css"
+    />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/css/main.css" />
+
+    
+  </head>
+  <body>
+    <section class="hero is-primary is-bold">
+      <div class="hero-body">
+        <div class="container">
+          <h1 class="title">
+            Movies and Films Comparision
+            <span class="icon">
+              <i class="fas fa-film"></i>
+            </span>
+          </h1>
+        </div>
+      </div>
+    </section>
+    <!-- Body -->
+    <div class="container-md">
+      <!-- Search Inputs -->
+      <div class="row gx-5">
+        <div id="left-autocomplete" class="col-12 col-md-6"></div>
+        <div id="right-autocomplete" class="col-12 col-md-6"></div>
+      </div>
+      <!-- Tutorial Box -->
+      <div class="row text-center justify-content-center" id="tutorial">
+        <div class="col col-md-6 ">
+          <div class="box bg-success text-light mt-3">
+            <h2>Search for A Movie on Both Sides</h2>
+            <p class="mb-1">We'll tell you which one is better!</p>
+          </div>
+        </div>
+      </div>    
+
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <script src="utils.js"></script>
+    <script src="autocomplete.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>
