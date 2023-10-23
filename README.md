@@ -1,7 +1,7 @@
-# Movie Fighting Website :basketball:
+# Movie Stats Comparison Website :basketball:
 *Started: ... and 5 minutes to read*
 
-:star: This is a the first project using fetch API integrated to the input fields to get information of movies in the internet based on user's search, then uses the information block of the chosen movies to compare them. Check the website at this [link](https://jessecn1024.github.io/Movie-Fighting/).
+:star: This is a the first project using fetch API integrated to the input fields to get information of movies in the internet based on user's search, then uses the information block of the chosen movies to compare them. Check the website at this [link](https://chic-rabanadas-35b9cb.netlify.app/). <Try searching your 2 favorite movies and compare them.>
 ***
 `NOTE:` The above link is a static github link so the fetch API feature of the website may not work correctly, for properly testing please download the project and use **Live server** on VSCODE.
 
